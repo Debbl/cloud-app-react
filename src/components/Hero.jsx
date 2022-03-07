@@ -10,7 +10,10 @@ import bgImg from '../assets/cyber-bg.png';
 
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-between w-full h-screen bg-zinc-200">
+    <div
+      name="home"
+      className="flex flex-col justify-between w-full h-screen bg-zinc-200"
+    >
       <div className="grid m-auto max-w-[1240px] md:grid-cols-2">
         <div className="flex flex-col justify-center py-8 px-2 w-full md:items-start">
           <p className="text-2xl">Unique Sequencing & Production</p>
