@@ -26,14 +26,14 @@ export default function Hero() {
         <div>
           <img className="w-full" src={bgImg} alt="/" />
         </div>
-        <div className="flex absolute bottom-[5%] flex-col py-8 mx-1 text-center bg-zinc-200 rounded-xl border border-slate-300 shadow-xl md:left-1/2 md:min-w-[760px] md:-translate-x-1/2">
+        <div className="flex absolute inset-x-0 bottom-[5%] flex-col py-8 mx-1 text-center bg-zinc-200  rounded-xl border border-slate-300 shadow-xl md:left-1/2 md:min-w-max md:-translate-x-1/2">
           <p>Data Services</p>
-          <div className="flex flex-wrap justify-between px-4">
+          <div className="grid grid-cols-1 px-4 md:grid-cols-2 lg:grid-cols-4">
             <p className="flex py-2 px-4 text-slate-500">
               <CloudUploadIcon className="h-6 text-indigo-600" />
               App Security
             </p>
-            <p className="flex py-2 px-4 text-slate-500">
+            <p className="flex py-2 px-4 w-max text-slate-500">
               <DatabaseIcon className="h-6 text-indigo-600" />
               App Dashboard Design
             </p>
